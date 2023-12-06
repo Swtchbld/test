@@ -1,0 +1,119 @@
+@media screen and (max-width: 1200px) 
+   {
+    .background{
+     width: 800px;
+     padding-left: 20px;
+    }
+    .main-block{
+        width: 600px;
+        padding-top: 20px;
+     
+    }
+    .header{
+        .title{
+            font-size: 30px;
+            padding-right: 100px;
+        }
+        .subtitle{
+            font-size: 25px;
+        }
+        .search{
+            padding-left: 30px;
+            width: 186px;
+            height: 30px;
+            border-radius: 10px;
+            background: #F9FBFF;
+            }
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 10% 15% 20% 35% 15% 15%;
+        padding-left: 38px;
+        
+    
+        &__item{
+            color: #B5B7C0;
+            font-family: Poppins;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -0.14px;
+        }
+        &__item-2{
+            color: #292D32;
+            font-family: Poppins;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -0.14px;
+            padding-top: 24px;
+            padding-bottom:24px;
+        }
+     
+    }
+//   side
+.side-menu{
+
+    &__item{
+  color: #9197B3;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.14px;
+padding-bottom: 44px;
+line-height: 40px;
+    }
+}
+.arrow{
+    width: 16px;
+height: 16px;
+flex-shrink: 0;
+padding-right: 15px;
+padding-left: 90px;
+}
+.logo{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+padding-right: 14px;
+}
+.project-manager{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.14px;
+padding-right: 23px;
+padding-bottom: 155px;
+padding-top: 500px;
+padding-left: 28px;
+
+}
+.pr{
+    color: #757575;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+.side-title {
+    display:flex;
+color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.26px;
+padding-top: 36px;
+padding-left: 28px;
+   }
+}
