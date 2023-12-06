@@ -145,6 +145,7 @@ margin-right: 12px;
 
 //side bar
 .side{
+padding-left: 28px;
 width: 306px;
 height: 1198px;
 flex-shrink: 0;
@@ -159,7 +160,7 @@ font-weight: 600;
 line-height: normal;
 letter-spacing: 0.26px;
 padding-top: 36px;
-padding-left: 28px;
+
 }
 .romb{
     padding-right: 8px;
@@ -178,7 +179,7 @@ padding-left: 4px;
 }
 .side-menu{
     display: grid;
-    padding-left: 28px;
+ 
     padding-right: 28px;
     padding-top: 65px;
     &__item{
@@ -214,9 +215,9 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.14px;
 padding-right: 23px;
-padding-bottom: 95px;
+
 padding-top: 600px;
-padding-left: 28px;
+
 }
 .pr{
     color: #757575;
@@ -226,4 +227,5 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.12px;
+padding-bottom: 78px;
 }
