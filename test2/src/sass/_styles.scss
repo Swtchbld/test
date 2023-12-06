@@ -1,6 +1,8 @@
 $item-color: #B5B7C0;
 $item-2-color:  #292D32;
 $item-menu-color:    #9197b3;
+
+
 .general{
     display: flex;
     flex-direction: row-reverse;
@@ -27,8 +29,9 @@ $item-menu-color:    #9197b3;
 .main-block{
     border-radius: 30px;
     background-color: #fff;
-    padding-top: 31px;
-    padding-right: 44px;
+    
+    
+   
  width: 968px;
 height: 812px;
 flex-shrink: 0;
@@ -41,6 +44,7 @@ filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.50));
     display: flex;
     flex-direction: row;
     .title{
+      padding-top: 30px;
         color: #000;
     font-family: Poppins;
     font-size: 22px;
@@ -53,8 +57,13 @@ filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.50));
     margin-top: 0;
     padding-right: 505px;
     }
-
+.search-container{
+    margin-top: 30px;
+    height: 38px;
+}
 .search{
+    margin-top: 30px;
+    box-sizing:border-box;
 
 width: 216px;
 height: 38px;
@@ -76,21 +85,33 @@ background: #F9FBFF;
     }
     
 }
-.square{
-    margin-top: 40px;
-    
-}
+
 .line{
-    
+    margin: 0 auto;
     height:1px;
     border-width:0;
    color: #EEEEEE;
    background: #EEE;
 }
+.square{
+    padding-right: 44px;
+    
+}
+.wrapper-title {
+    display: grid;
+    grid-template-columns:  15% 15% 20% 25% 15% 15%;
+    padding-left: 38px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+}
 .wrapper {
     display: grid;
     grid-template-columns: 15% 15% 20% 25% 15% 15%;
     padding-left: 38px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    
+    
  
 
 
@@ -111,8 +132,7 @@ background: #F9FBFF;
         font-weight: 500;
         line-height: normal;
         letter-spacing: -0.14px;
-        padding-top: 24px;
-        padding-bottom:24px;
+        
     }
     &__btn{
         height: 29px;
@@ -127,16 +147,31 @@ background: #F9FBFF;
         border: 1px solid #00B087;
         background: rgba(22, 192, 152, 0.38);
             }
+    &__btn-inactive{
+        
+        height: 29px;
+        box-sizing: border-box;
+        display: flex;  
+        width: 80px;
+        padding: 4px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        border: 1px solid #DF0404;
+        background: #FFC5C5;
+    }
  
 }
 
 
 .down{
+    display: flex;
     padding-right: 40px;
     padding-top: 32px;
     padding-bottom: 41px;
     padding-left: 38px;
-    display: grid;
+
     grid-template-columns: 657px 220px;
 
 }
@@ -150,9 +185,9 @@ line-height: normal;
 letter-spacing: -0.14px;
 }
 .switcher{
-    display: grid;
-    display: inline-flex;
 
+padding-left: 207px;
+  
 }
 .swtch-btn{
     grid-template-rows: 10px;
@@ -172,7 +207,7 @@ font-family: Poppins;
 font-size: 12px;
 font-style: normal;
 font-weight: 500;
-line-height: 100%; /* 12px */
+line-height: 100%; 
 letter-spacing: -0.12px;
 }
 
