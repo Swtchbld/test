@@ -133,6 +133,7 @@
 }
 
 .down {
+  padding-right: 40px;
   padding-top: 32px;
   padding-bottom: 41px;
   padding-left: 38px;
@@ -152,10 +153,13 @@
 
 .switcher {
   display: grid;
-  grid-template-rows: 10px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+}
+
+.swtch-btn {
+  grid-template-rows: 10px;
   padding: 6px 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -168,15 +172,19 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
-}
-
-.swtch-btn {
   border-radius: 4px;
   border: 1px solid #EEE;
   background: #F5F5F5;
   width: 24px;
   height: 25px;
   margin-right: 12px;
+  color: #404B52;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 12px */
+  letter-spacing: -0.12px;
 }
 
 .side {
