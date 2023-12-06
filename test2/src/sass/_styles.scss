@@ -1,3 +1,6 @@
+$item-color: #B5B7C0;
+$item-2-color:  #292D32;
+$item-menu-color:    #9197b3;
 .general{
     display: flex;
     flex-direction: row-reverse;
@@ -80,10 +83,9 @@ background: #F9FBFF;
     display: grid;
     grid-template-columns: 15% 15% 20% 25% 15% 15%;
     padding-left: 38px;
-    
 
     &__item{
-        color: #B5B7C0;
+        color: $item-color;
         font-family: Poppins;
         font-size: 14px;
         font-style: normal;
@@ -92,7 +94,7 @@ background: #F9FBFF;
         letter-spacing: -0.14px;
     }
     &__item-2{
-        color: #292D32;
+        color: $item-2-color;
         font-family: Poppins;
         font-size: 14px;
         font-style: normal;
@@ -102,6 +104,19 @@ background: #F9FBFF;
         padding-top: 24px;
         padding-bottom:24px;
     }
+    &__btn{
+        height: 29px;
+        box-sizing: border-box;
+        display: flex;  
+        width: 80px;
+        padding: 4px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        border: 1px solid #00B087;
+        background: rgba(22, 192, 152, 0.38);
+            }
  
 }
 
@@ -178,12 +193,11 @@ align-items:flex-end;
 padding-left: 4px;
 }
 .side-menu{
-    display: grid;
- 
-    padding-right: 28px;
-    padding-top: 65px;
-    &__item{
-        color: #9197B3;
+display: grid;
+padding-right: 28px;
+padding-top: 65px;
+&__item{
+color: $item-menu-color;
 font-family: Poppins;
 font-size: 14px;
 font-style: normal;

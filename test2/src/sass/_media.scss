@@ -5,6 +5,7 @@
      padding-left: 20px;
     }
     .main-block{
+        height: 1000px;
         width: 800px;
         padding-top: 20px;
      
@@ -32,7 +33,7 @@
         
     
         &__item{
-            color: #B5B7C0;
+            color: $item-color;
             font-family: Poppins;
             font-size: 18px;
             font-style: normal;
@@ -41,7 +42,7 @@
             letter-spacing: -0.14px;
         }
         &__item-2{
-            color: #292D32;
+            color: $item-2-color;
             font-family: Poppins;
             font-size: 18px;
             font-style: normal;
@@ -57,7 +58,7 @@
 .side-menu{
 
     &__item{
-  color: #9197B3;
+  color:$item-color;
 font-family: Poppins;
 font-size: 24px;
 font-style: normal;
@@ -122,18 +123,3 @@ padding-left: 28px;
 }
 
 
-@media screen and (max-width: 1000px) {
-.general{
-    width: 100%;
-}
-.background{
-    width: 80%
-}
-.main-block{
-    width: 700px;
-}
-.side{
-  
-    padding-right: 0;
-}
-}
